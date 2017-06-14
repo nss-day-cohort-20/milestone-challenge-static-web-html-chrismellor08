@@ -60,23 +60,10 @@
     overflow-y:scroll;
 }
 
-****************************************************
+/****************************************************/
 
 
-body {
-	padding-top: 300px;
 
-
-	/**	background: url(/images/blogBackground.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;**/
-}
-
-nav {
-
-}
 h1 {
 	display: block;
 	font-family: 'Bungee', cursive;
@@ -97,18 +84,16 @@ p {
 }
 
 a {
-	color: #b2f5d9;
+	color: #f5b2ce;;
 }
 a:hover {
 	text-decoration: none;
-	color: #f5b2ce;
+	color: #b2f5d9;
 }
 
 .headerText {
-
-text-shadow: 0px 15px 5px rgba(178,245,217,0.1)
-                 /*10px 20px 5px rgba(178,245,217,0.05),*/
-                 /*-10px 20px 5px rgba(178,245,217,0.05)*/;
+text-shadow: 0px 15px 5px rgba(178,245,217,0.1);
+font-size: 3rem;
 }
 
 .panel-heading {
@@ -118,7 +103,6 @@ text-shadow: 0px 15px 5px rgba(178,245,217,0.1)
 .navbar-fixed-top {
 	margin-top: -40px;
 	position: fixed;
-
 }
 
 .first-entry {
@@ -160,20 +144,21 @@ text-shadow: 0px 15px 5px rgba(178,245,217,0.1)
 	background-color: #fff;
 	margin: 3%;
 	width: 43%;
-	border: 6px solid #b2f5d9;
+	border: 6px solid #c3efff;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	min-height: 450px;
 	max-height: 450px;
-
 }
 
 .wrotePadding {
 	margin-top: -40px;
+	color: #c3efff;
 }
 .likePadding {
 	padding-top: 30px;
+	color: #c3efff;
 }
 
 .blogCard{
@@ -184,8 +169,12 @@ text-shadow: 0px 15px 5px rgba(178,245,217,0.1)
 	display: inline-block;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-
 }
+
+.blueh1 {
+	color: #2E2E2E;
+}
+
 .card-img-top {
 	max-width: 90%;
 	min-width: 344px;
@@ -193,17 +182,17 @@ text-shadow: 0px 15px 5px rgba(178,245,217,0.1)
 	margin-bottom: 4%;
 	border-radius: 2%;
 }
+
 .card-text {
 	margin: 2%;
 }
+
 .btn-primary {
 	margin-bottom:  5%;
 	margin-top:  55;
 }
 
 .darkBG {
-	background-image: url(/images/simple-pattern-backgrounds-2.jpg)
-	background-color: #2E2E2E;
 	opacity:.99;
 }
 
@@ -215,6 +204,7 @@ text-shadow: 0px 15px 5px rgba(178,245,217,0.1)
 	padding-top: 100px;
 	padding-bottom: 110px;
 }
+
 #onegentext {
 	padding-bottom: 10px;
 }
