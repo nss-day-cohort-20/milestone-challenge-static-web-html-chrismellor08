@@ -1,0 +1,261 @@
+
+**** scrolling panel for blog entry ****
+****************************************
+
+.row {
+    margin-top: 10px;
+
+}
+
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #FFFFFF;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.panel-primary>.panel-heading {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.panel-primary {
+    border-color: #000000;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #FFFFFF;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
+
+.tab-pane{
+    height:300px;
+    overflow-y:scroll;
+}
+
+/****************************************************/
+
+
+
+h1 {
+	display: block;
+	font-family: 'Bungee', cursive;
+	text-align: center;
+	font-size: 4em;
+	color: #f5b2ce;
+	text-shadow: 0px 15px 5px rgba(178,245,217,0.1);
+
+}
+h3{
+	font-family: 'Alfa Slab One', cursive;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+a {
+	color: #f5b2ce;;
+}
+a:hover {
+	text-decoration: none;
+	color: #b2f5d9;
+}
+
+.headerText {
+text-shadow: 0px 15px 5px rgba(178,245,217,0.1);
+font-size: 3rem;
+}
+
+.panel-heading {
+		background-color: #b2f5d9;
+	}
+
+.navbar-fixed-top {
+	margin-top: -40px;
+	position: fixed;
+}
+
+.first-entry {
+	margin-bottom: 100%;
+}
+.headshot {
+	border-radius: 70%;
+	margin: 0 auto;
+}
+
+.page-header {
+	background-color: #2E2E2E;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	opacity: .98;
+}
+
+.ghost{
+	height: 108px;
+}
+
+.topOfPage {
+	background-image: url(/images/simple-pattern-backgrounds-2.jpg);
+}
+.container {
+	min-width: 100%;
+}
+.weekHeader {
+	color: #2E2E2E;
+	padding-bottom: 30px;
+}
+
+#blogContainer{
+	min-width: 101.8%;
+	background-color: transparent;
+}
+.card{
+	background-color: #fff;
+	margin: 3%;
+	width: 43%;
+	border: 6px solid #c3efff;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	max-height: 450px;
+}
+
+.wrotePadding {
+	margin-top: -40px;
+	color: #c3efff;
+}
+.likePadding {
+	padding-top: 30px;
+	color: #c3efff;
+}
+
+.blogCard{
+	margin-right: 5%;
+	background-color: transparent;
+	margin: 2%;
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.blueh1 {
+	color: #2E2E2E;
+}
+
+.card-img-top {
+	max-width: 90%;
+	min-width: 344px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 2%;
+}
+
+.card-text {
+	margin: 2%;
+}
+
+.btn-primary {
+	margin-bottom:  5%;
+	margin-top:  55;
+}
+
+.darkBG {
+	opacity:.99;
+}
+
+#lockdownimage {
+	margin-top: -20px;
+}
+
+#oneGenImage {
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+
+#onegentext {
+	padding-bottom: 10px;
+}
+
+.white{
+	color:white;
+}
+
+.navbar{
+	background-color: #2E2E2E;
+	text-align: center;
+}
+
+.blogBG{
+	padding-top: 60px;
+background-color:  transparent;
+}
+
+.centerClass {
+	text-align: center;
+}
+
+.bioText{
+	width: 70%;
+	margin-left: 15%;
+	font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(/images/simple-pattern-backgrounds-2.jpg);
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbo {
+	font-size: 11rem;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.navbar {
+	padding-bottom: 45px;
+}
