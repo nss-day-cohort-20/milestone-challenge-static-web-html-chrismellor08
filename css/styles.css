@@ -1,3 +1,4 @@
+
 **** scrolling panel for blog entry ****
 ****************************************
 
@@ -258,3 +259,16 @@ body, html {
 .navbar {
 	padding-bottom: 45px;
 }
+
+
+.inline {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+
+
+

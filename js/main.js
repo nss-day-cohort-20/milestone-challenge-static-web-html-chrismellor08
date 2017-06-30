@@ -13,11 +13,11 @@ var blogEntry2 =makeBlog("Week Three", "June 09, 2017", "This was my third week 
 
 var blogEntries= [blogEntry1, blogEntry2]
 
-for (var i=0; i<blogEntries.length; i++) {
+for (var i=0; i<=blogEntries.length; i= i + 1) {
 
 document.getElementById("blogContainer").innerHTML +=
 		`
-			<div class="blogCard">
+			<article class="blogCard">
 				<div class="row">
 					<div class="panel">
 						<div class="panel-heading">
@@ -35,12 +35,11 @@ document.getElementById("blogContainer").innerHTML +=
 						</div>
 					</div>
 				</div>
-			</div>
+			</article>
 		</div>
 		`
 
 }
-
 
 
 
